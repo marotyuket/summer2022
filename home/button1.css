@@ -1,0 +1,157 @@
+body {
+  width: 601px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 200px;
+  left: 10px;
+  font-size: large;
+  color: white;
+  background-color: green;
+  box-shadow: 
+  5px 0 black,
+ -5px 0 black,
+  0  5px black,
+  0 -5px black,
+  inset -4px -4px darkgreen;
+  border: none;
+  height: 50px;
+  width: 150px;
+}
+.button:hover {
+  box-shadow: 
+  4px 0 black,
+  -4px 0 black,
+  0 4px black,
+  0 -4px black,
+  inset -6px -6px darkgreen;
+}
+.button:active {
+  box-shadow: 
+  4px 0 black,
+  -4px 0 black,
+  0 4px black,
+  0 -4px black,
+  inset 6px 6px darkgreen;
+}
+
+
+.button2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  left: 10px;
+  top: 290px;
+  font-size: large;
+  color: white;
+  background-color: orange;
+  box-shadow: 
+  5px 0 black,
+ -5px 0 black,
+  0  5px black,
+  0 -5px black,
+  inset -4px -4px darkorange;
+  border: none;
+  height: 50px;
+  width: 150px;
+}
+.button2:hover {
+  box-shadow: 
+  4px 0 black,
+  -4px 0 black,
+  0 4px black,
+  0 -4px black,
+  inset -6px -6px darkorange;
+}
+.button2:active {
+  box-shadow: 
+  4px 0 black,
+  -4px 0 black,
+  0 4px black,
+  0 -4px black,
+  inset 6px 6px darkorange;
+}
+
+
+
+.button3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  left: 10px;
+  top: 380px;
+  font-size: large;
+  color: white;
+  background-color: red;
+  box-shadow: 
+  5px 0 black,
+ -5px 0 black,
+  0  5px black,
+  0 -5px black,
+  inset -4px -4px darkred;
+  border: none;
+  height: 50px;
+  width: 150px;
+}
+.button3:hover {
+  box-shadow: 
+  4px 0 black,
+  -4px 0 black,
+  0 4px black,
+  0 -4px black,
+  inset -6px -6px darkred;
+}
+.button3:active {
+  box-shadow: 
+  4px 0 black,
+  -4px 0 black,
+  0 4px black,
+  0 -4px black,
+  inset 6px 6px darkred;
+}
+
+
+.button4 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  left: 10px;
+  top: 490px;
+  font-size: large;
+  color: white;
+  background-color: #1e90ff;
+  box-shadow: 
+  5px 0 black,
+ -5px 0 black,
+  0  5px black,
+  0 -5px black,
+  inset -4px -4px #005db6;
+  border: none;
+  height: 20px;
+  width: 150px;
+}
+.button4:hover {
+  box-shadow: 
+  4px 0 black,
+  -4px 0 black,
+  0 4px black,
+  0 -4px black,
+  inset -6px -6px #005db6;
+}
+.button4:active {
+  box-shadow: 
+  4px 0 black,
+  -4px 0 black,
+  0 4px black,
+  0 -4px black,
+  inset 6px 6px #005db6;
+}

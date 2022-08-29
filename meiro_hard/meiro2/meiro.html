@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>プログラミングコンテスト夏</title>
+  <link rel="stylesheet" href="../meiro.css">
+  <link rel="stylesheet" href="../modal.css">
+  <link rel="stylesheet" href="../modal2.css">
+  <link rel="stylesheet" href="../modal3.css">
+</head>
+<body>
+  <div></div>
+  <div id="ohooo">
+    <img id="i1" class="i1" src="./img/アセット 3-100.jpg" alt="">
+    <img id="i2" class="i2 show" src="./img/アセット 4-100.jpg" alt="">
+    <button class="b1" onclick="location.href='./meiro.html'">reset</button>
+    <button class="b2" onclick="location.href='../../home/meiroselect.html'">menu</button>
+    <button class="b3" onclick="location.href='../../home/home.html'">home</button>
+</div>
+
+<section id="modalArea" class="modalArea">
+  <div id="modalBg" class="modalBg"></div>
+  <div class="modalWrapper">
+    <div class="modalContents">
+      <h1>鍵を入手しました</h1>
+    </div>
+    <input type="button" id="closeModal" class="closeModal b4" value="×" onclick="modalClose()">
+  </div>
+</section>
+
+<section id="modalArea2" class="modalArea2">
+  <div id="modalBg2" class="modalBg2"></div>
+  <div class="modalWrapper2">
+    <div class="modalContents2">
+     <h3><p id="d"></p></h3>
+    </div>
+    <input type="button" id="closeModal2" class="closeModal2 b5" value="×" onclick="modalClose2()">
+  </div>
+</section>
+
+<section id="modalArea3" class="modalArea3">
+  <div id="modalBg3" class="modalBg3"></div>
+  <div class="modalWrapper3">
+    <div class="modalContents3">
+      <h3>地下1階に移動しました</h3>
+    </div>
+    <input type="button" id="closeModal3" class="closeModal3 b6" value="OK" onclick="modalClose3()">
+  </div>
+</section>
+
+
+  <script src="meirodata.js"></script>
+  <script src="meiromap.js"></script>
+</body>
+</html>

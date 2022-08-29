@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family:'Avenir','Helvetica, Neue','Helvetica','Arial';
+  
+}
+
+
+/* モーダルCSSここから */
+.modalArea {
+  visibility: hidden; 
+  opacity : 0;
+  position: fixed;
+  z-index: 30;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: .4s;
+}
+
+.modalBg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30,30,30,0.9);
+}
+
+.modalWrapper {
+  position: absolute;
+  transform:translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  max-width: 500px;
+  padding: 10px 30px;
+  background-color: #fff;
+}
+
+.closeModal {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  cursor: pointer;
+}
+/* モーダル表示 */
+.is-show { 
+  visibility: visible;
+  opacity : 1;
+}
+
+
+
+/* 以下ボタン */
+.b4 {
+  font-size: 35px;
+  width: 40px;
+  height: 40px;
+  border: 0.1em solid #000;
+  border-radius: 100%;
+  line-height: 10px;
+  background-color: #fff;
+}
+
+#openModal {
+  
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
