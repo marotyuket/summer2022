@@ -1,3 +1,39 @@
+window.onload = () => {
+
+  var images = [
+    './img/door.jpg',
+    './img/left_door.jpg',
+    './img/down_right.jpg',
+    './img/down_stop.jpg',
+    './img/goal.jpg',
+    './img/key.jpg',
+    './img/key2.jpg',
+    './img/left_down_right.jpg',
+    './img/left_down.jpg',
+    './img/left_right.jpg',
+    './img/left_stop.jpg',
+    './img/left_up_right_down.jpg',
+    './img/left_up_right.jpg',
+    './img/left_up.jpg',
+    './img/right_key3.jpg',
+    './img/right_stop.jpg',
+    './img/up_down.jpg',
+    './img/up_left_down.jpg',
+    './img/up_right_down.jpg',
+    './img/up_right.jpg',
+    './img/up_start.jpg',
+    './img/up_stop.jpg',
+    './img/アセット 3-100.jpg',
+    './img/アセット 4-100.jpg'
+  ];
+  
+  for (i = 0; i < images.length; i++){
+    var img = document.createElement('img');
+    img.src = images[i];
+  };
+  }
+
+
 let showMap = () =>{
   let elem = document.querySelector('div');
   let chip = map[y][x];
